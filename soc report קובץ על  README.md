@@ -1,6 +1,7 @@
 # SOC Report - README
 
 ## Overview
+<img width="504" height="437" alt="image" src="https://github.com/user-attachments/assets/e3fd7f62-5c28-449f-bd8a-09328047e175" />
 
 This README summarizes the SOC (Security Operations Center) report, its
 purpose, structure, and key findings.
