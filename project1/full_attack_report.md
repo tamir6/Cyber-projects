@@ -97,6 +97,7 @@ initiated:
 ## 🔥 Stage 5 --- Firewall Evidence of Reverse Shell Traffic
 
 ### 📄 Firewall logs
+https://github.com/tamir6/soc-reports/blob/main/project1/log%20files/firewall_nc.log
 
     Nov 23 14:02:29 attack-ws kernel: [25432.112233] IN=eth0 OUT= MAC=52:54:00:aa:bb:cc:52:54:00:11:22:33:08:00 SRC=10.0.0.20 DST=10.0.0.50 LEN=60 TOS=0x00 PREC=0x00 TTL=63 ID=54321 DF PROTO=TCP SPT=51544 DPT=4444 WINDOW=64240 RES=0x00 SYN URGP=0
 
