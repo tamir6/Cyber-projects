@@ -47,7 +47,7 @@ https://github.com/tamir6/soc-reports/blob/main/project1/log%20files/web_access.
 
 ------------------------------------------------------------------------
 
-## 📂 Stage 2 --- Exploring the Web Application (cURL Enumeration)
+## 📂 Stage 2 --- Attempt to upload the malicious file to the Web Application (cURL Enumeration)
 
 The attacker probed the upload functionality:
 
