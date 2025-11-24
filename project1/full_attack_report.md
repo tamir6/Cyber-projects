@@ -12,8 +12,8 @@ server.\
 The attacker exploited an insecure file upload feature to upload a
 malicious PHP file (`reverse_proxy.php`) and subsequently gained remote
 shell access.
+All documentation is in the log_files folder
 
-All documentation is in the log_files folder.
 ------------------------------------------------------------------------
 
 ## 🖥️ Environment Details
