@@ -90,6 +90,7 @@ nc -lvnp 4444
 
 When the attacker accessed the malicious PHP file, a connection was
 initiated:
+https://github.com/tamir6/soc-reports/blob/main/project1/log%20files/web_access.log
 
     10.0.0.50 - - [23/Nov/2025:14:04:12 +0200] "GET /uploads/reverse_proxy.php?status=poll HTTP/1.1" 200 432 "-" "curl/7.81.0"
 
