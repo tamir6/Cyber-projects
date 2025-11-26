@@ -91,6 +91,7 @@ No evidence of lateral movement or non-RDP probing was found.
 - Traffic detected on port **3389**
 - Multiple rapid login attempts (**10 attempts / 30 seconds**)  
 - Attempts originating from a single IP  
+Introducing a new law for warning
 
 <img src="https://github.com/user-attachments/assets/1f5e913b-9781-4509-8119-1f147221d2b4" width="300"/>
 
