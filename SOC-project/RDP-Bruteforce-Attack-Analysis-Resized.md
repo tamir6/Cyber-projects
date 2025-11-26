@@ -61,8 +61,10 @@ Further filtering showed:
 | **First login attempt** | 25/11/2025 10:05:01 |
 | **Last recorded attempt** | 25/11/2025 10:05:33 |
 
+<img width="900" height="125" alt="image" src="https://github.com/user-attachments/assets/4be72cf6-911e-4c36-98ba-569943d6eaca" />
 
-<img width="1099" height="294" alt="image" src="https://github.com/user-attachments/assets/28323761-1a93-436a-84af-692bb8d8ef49" />
+
+<img width="900" height="294" alt="image" src="https://github.com/user-attachments/assets/28323761-1a93-436a-84af-692bb8d8ef49" />
 
 
 
