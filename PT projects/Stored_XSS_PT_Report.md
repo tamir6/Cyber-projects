@@ -63,9 +63,10 @@ implications.
    <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5e6a056c-4f85-4d3c-b9ad-d8ed8831cc6d" >
 
 
-   <img width="828" height="330" alt="image" src="https://github.com/user-attachments/assets/caffaa57-11a0-4015-873a-f0cd1e099a38" >
+   <img width="500" height="330" alt="image" src="https://github.com/user-attachments/assets/caffaa57-11a0-4015-873a-f0cd1e099a38" >
 
-<img width="828" height="330" alt="image" src="https://github.com/user-attachments/assets/b3d53e11-2e3f-4b3e-80da-5b35c24dc620" >
+
+<img width="500" height="330" alt="image" src="https://github.com/user-attachments/assets/b3d53e11-2e3f-4b3e-80da-5b35c24dc620" >
 
 
 **2.  Insert js code - for check if vulnerable**
