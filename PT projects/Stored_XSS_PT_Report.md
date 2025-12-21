@@ -60,7 +60,8 @@ implications.
 
 **1.  Navigate to the vulnerable input field**
 
-   <img width="1089" height="645" alt="image" src="https://github.com/user-attachments/assets/5e6a056c-4f85-4d3c-b9ad-d8ed8831cc6d" >
+   <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5e6a056c-4f85-4d3c-b9ad-d8ed8831cc6d" >
+
 
    <img width="828" height="330" alt="image" src="https://github.com/user-attachments/assets/caffaa57-11a0-4015-873a-f0cd1e099a38" >
 
