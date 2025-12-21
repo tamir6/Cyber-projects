@@ -55,7 +55,7 @@ implications.
 
 ## 🔍 5. Steps to Reproduce
 
-**1.  Navigate to the vulnerable input field**
+**5.1  Navigate to the vulnerable input field**
 
    <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5e6a056c-4f85-4d3c-b9ad-d8ed8831cc6d" >
    
@@ -64,7 +64,7 @@ implications.
 <img width="500" height="330" alt="image" src="https://github.com/user-attachments/assets/b3d53e11-2e3f-4b3e-80da-5b35c24dc620" >
 
 
-**2.  Insert js code - for check if vulnerable**
+**5.2  Insert js code - for check if vulnerable**
 
 <img width="500" height="180" alt="image" src="https://github.com/user-attachments/assets/b504e6db-9779-4768-be29-289dd9f1a816" >
 
@@ -83,23 +83,23 @@ implications.
 **test1.js:**
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/a5d2a640-f0b5-43c8-a4c3-e78dda65398c" >
 
-**3. Exploitation of the vulnerability**
+**5.3 Exploitation of the vulnerability**
 Injecting a link to the malicious keylogger script through the vulnerable input field
 <img width="500" height="218" alt="image" src="https://github.com/user-attachments/assets/eac9e9cf-65aa-4189-b307-c8eeca783b1a" >
 
-**4. Problem Identified — Input Length Restriction**
+**5.4 Problem Identified — Input Length Restriction**
 The input field is limited to 50 characters.
 Using browser developer tools, we identify the client-side restriction and modify the maxlength attribute to 250 characters
 
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fb2e13bb-7a4b-4994-884d-84f4358e6577" >
 <img width="500" height="84" alt="image" src="https://github.com/user-attachments/assets/f3ce999d-c8be-4987-a053-b132fae29e9b" >
 
-**5. Payload Injection**
+**5.5 Payload Injection**
 With the extended limit, we exploit the XSS vulnerability and inject the malicious keylogger link.
 
 <img width="500" height="233" alt="image" src="https://github.com/user-attachments/assets/99d1ae6a-4a37-478c-bac8-e057f5623d53" >
 
-**6. Keylogger Evidence**
+**5.6 Keylogger Evidence**
 The attacker can now view logged keystrokes captured from the victim’s browser.
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/eea39330-7771-4bef-96a8-18b5b5dab3a9" >
 
